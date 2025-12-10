@@ -21,6 +21,7 @@
     <img src="https://img.shields.io/bundlephobia/minzip/svelte-bash?style=flat-square&color=green" alt="Bundle Size" />
     <img src="https://img.shields.io/npm/l/svelte-bash?style=flat-square&color=orange" alt="License" />
     <img src="https://img.shields.io/badge/Svelte-5-orange?style=flat-square&logo=svelte" alt="Svelte 5" />
+    <img src="https://img.shields.io/badge/Zero_Dependency-Used_Vanilla_CSS-blueviolet?style=flat-square" alt="Zero Dependency" />
   </p>
 
 </div>
@@ -28,6 +29,8 @@
 ---
 
 **Svelte Bash** is a high-performance terminal emulator component designed specifically for modern Svelte applications. It provides a realistic shell experience with a virtual file system, command history navigation, and advanced features like autoplay sequences for tutorials.
+
+> **Note:** As of v1.0.1, svelte-bash has been refactored to use **Pure Vanilla CSS** internally. This means it has **ZERO dependencies** on Tailwind CSS and will render correctly in any project (including Bootstrap, Tailwind, or plain CSS projects). You do NOT need to install Tailwind.
 
 Whether you are building a developer portfolio, a documentation site, or a web-based CLI tool, Svelte Bash offers the perfect balance of aesthetics and functionality.
 
